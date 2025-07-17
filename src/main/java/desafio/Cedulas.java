@@ -37,6 +37,6 @@ public class Cedulas {
     }
 
     public static void main(String[] args) {
-        Cedulas.RestoDoDinheiro(BigDecimal.valueOf(100));
+        Cedulas.RestoDoDinheiro(BigDecimal.valueOf(768));
     }
 }
