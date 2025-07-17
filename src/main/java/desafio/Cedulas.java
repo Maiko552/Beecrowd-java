@@ -27,7 +27,6 @@ public class Cedulas {
             BigDecimal[] resultado = valorEmReais.divideAndRemainder(nota);
             BigDecimal quantidade = resultado[0];
             BigDecimal resto = resultado[1];
-
             if (quantidade.compareTo(BigDecimal.ZERO) > 0) {
                 String notaFormatada = formatador.format(nota);
                 System.out.println(quantidade.intValue() + " nota(s) de R$ " + notaFormatada);
@@ -38,6 +37,6 @@ public class Cedulas {
     }
 
     public static void main(String[] args) {
-        Cedulas.RestoDoDinheiro(BigDecimal.valueOf(576));
+        Cedulas.RestoDoDinheiro(BigDecimal.valueOf(100));
     }
 }
